@@ -1,0 +1,24 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "audit": "npx lhci autorun"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lhci/cli": "^0.12.0",
+    "lighthouse": "^11.0.0",
+    "node": "^20.4.0",
+    "open": "^9.1.0",
+    "puppeteer": "^20.9.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
